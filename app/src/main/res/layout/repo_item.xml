@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_margin="@dimen/horizontal_margin"
+    android:padding="@dimen/horizontal_margin"
+    android:background="@color/grey_300"
+    android:elevation="10dp">
+
+    <TextView
+        android:id="@+id/repoNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/repoDescriptionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_red"
+        tools:text="Description"/>
+
+    <TextView
+        android:id="@+id/repoLanguageTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_blue"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        tools:text="language"/>
+</LinearLayout>
